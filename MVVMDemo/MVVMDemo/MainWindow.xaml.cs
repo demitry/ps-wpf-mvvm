@@ -27,10 +27,10 @@ namespace MVVMDemo
 
         private void StudentViewControl_Loaded(object sender, RoutedEventArgs e)
         {
-            MVVMDemo.ViewModel.StudentViewModel studentViewModelObject = new ViewModel.StudentViewModel();
-            studentViewModelObject.LoadStudents();
+            //MVVMDemo.ViewModel.StudentViewModel studentViewModelObject = new ViewModel.StudentViewModel();
+            //studentViewModelObject.LoadStudents();
 
-            StudentViewControl.DataContext = studentViewModelObject;
+            //StudentViewControl.DataContext = studentViewModelObject;
         }
     }
 }
