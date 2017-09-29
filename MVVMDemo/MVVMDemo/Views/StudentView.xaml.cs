@@ -23,6 +23,14 @@ namespace MVVMDemo.Views
         public StudentView()
         {
             InitializeComponent();
+
+            //View First Construction in Code-behind
+            this.DataContext = new MVVMDemo.ViewModel.StudentViewModel();
+
+            /*
+             * Another way is that you can get View first construction is by simply constructing the view model yourself in the code behind of your View by setting the DataContext property there with the instance.
+               Typically, the DataContext property is set in the constructor method of view, but you could also defer the construction until the Load event of the view fires.
+            */
         }
     }
 }

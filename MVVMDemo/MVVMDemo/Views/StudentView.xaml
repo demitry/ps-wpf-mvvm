@@ -9,10 +9,10 @@
              d:DesignHeight="300" d:DesignWidth="300">
     
     <!--View First Construction in XAML-->
-    <UserControl.DataContext>
+    <!--<UserControl.DataContext>
         <viewModel:StudentViewModel/>
-    </UserControl.DataContext>
-    
+    </UserControl.DataContext>-->
+
     <Grid>
         <StackPanel HorizontalAlignment="Left">
 
